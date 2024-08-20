@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(229, 229, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 28%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.card-top{
+    width: 100%;
+}
+.card-top img{
+    width: 100%;
+    height: 200px;
+}
+.card-bottem{
+    margin: 32px;
+    text-align: center;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    padding: 16px;
+    color: gray;
+    line-height: 30px;
+}
+.plan{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: rgb(248, 248, 248);
+}
+.plan-child{
+    display: flex;
+    gap: 14px;
+}
+.plan-child .plan-icon{
+    background-color: rgb(218, 218, 218);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-text{
+   width: auto;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   
+}
+.plan-text .plan-titr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.plan-text .plan-price{
+    font-size: 1.4rem;
+    color: rgb(197, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plan-link a{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Button{
+    margin-top: 24px;
+    height: 46px;
+    background-color: #12697c;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: #a0c4cc 0px 25px 20px -20px;
+}
+.cancel{
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: gray;
+}
